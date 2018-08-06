@@ -26,8 +26,9 @@ body {
  .subpage {
 	  /*padding: 1cm; */
 	  /*border: 5px #ccc solid; */
-	  height: 297mm;
-	  width: 210mm;
+	  height: 210mm;
+	  width: 297mm;
+	 position: left;
 
 	  /* outline: 2cm whitesmoke solid; */
  }
