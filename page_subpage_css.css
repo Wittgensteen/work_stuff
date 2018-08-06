@@ -35,11 +35,12 @@ body {
  }
  @media print {
 	  html, body {
+		        size: landscape;
 		        width: 297mm;
 			height: 210mm;
 			        
 	  }
-	  .page {
+	  .page {       size: landscape;
 			margin: 0;
 
 	  }   
