@@ -14,8 +14,8 @@ body {
  }
  .page {
 	  position: relative;
-	  width: 210mm;
-	  min-height: 300mm;
+	  width: 100%;
+	  min-height: 100%;
 	  padding: 0mm;
 	  margin: 10mm auto;
 	  /* border: 1px #D3D3D3 solid; */
