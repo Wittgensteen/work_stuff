@@ -28,7 +28,7 @@ body {
 	  /*border: 5px #ccc solid; */
 	  height: 210mm;
 	  width: 297mm;
-	 position: left;
+	 position:relative ;
 
 	  /* outline: 2cm whitesmoke solid; */
  }
