@@ -30,7 +30,7 @@ body {
  }
 
  @page {
-	  size: A4;
+	  size: landscape;
 	  margin: 0;
  }
  @media print {
