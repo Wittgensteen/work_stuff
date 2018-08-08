@@ -339,14 +339,11 @@ li {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 table {
   border-collapse: collapse;
-  padding: 0px 15px 0px 15px;
-
 }
 th,
 td {
- /* padding: 12px 15px; */
-  text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
+    padding: 0px 15px 0px 2px;  text-align: left;
+    border-bottom: 1px solid #E1E1E1; }
 th:first-child,
 td:first-child {
   padding-left: 0; }
