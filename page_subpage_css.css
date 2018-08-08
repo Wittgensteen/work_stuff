@@ -28,7 +28,7 @@ body {
 	  /*border: 5px #ccc solid; */
 	  /*background-image: url(https://raw.githubusercontent.com/Wittgensteen/work_stuff/master/back_jpg.jpg)*/
 	  height: 960px;
-	  width: 720p[;
+	  width: 720px;
 	  position:relative ;
 
 	  /* outline: 2cm whitesmoke solid; */
@@ -47,6 +47,8 @@ body {
 	  }
 	  .page {       size: landscape;
 			margin: 0;
+		  	height: 960px;
+	                width: 720px;
 
 	  }
 	 .subpage {       size: landscape;
