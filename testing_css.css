@@ -1,0 +1,70 @@
+body {
+       /* width: 29.7cm; */
+       /* height: 21cm;  */
+	  margin: 0;
+	  padding: 0;
+	  background-color: #FAFAFA;
+	  font-size: 1.5em;
+	  line-height: 1.6;
+	  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+ * {
+	  box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+ }
+ .page {
+	  position: relative;
+	  width: 100%;
+	  min-height: 100%;
+	  padding: 0mm;
+	  /*margin: 10mm auto;*/
+	  /* border: 1px #D3D3D3 solid; */
+	  border-radius: 5px;
+	  background: white;
+	  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+ }
+ .subpage {
+	  /*padding: 1cm; */
+	  /*border: 5px #ccc solid; */
+	  /*background-image: url(https://raw.githubusercontent.com/Wittgensteen/work_stuff/master/back_jpg.jpg)*/
+	  height: 960px;
+	  width: 720px;
+	  position:relative ;
+
+	  /* outline: 2cm whitesmoke solid; */
+ }
+
+ @page {
+	  size: landscape;
+	  margin: 0;
+ }
+ @media print {
+	  html, body {
+		        size: landscape;
+            visibility: hidden;
+		        /*width: 297mm;*/
+			      /*height: 210mm;*/
+			        
+	  }
+	  .page {
+              size: landscape;
+			        margin: 0;
+		  	      height: 960px;
+	            width: 720px;
+              visibility: hidden;
+	  }
+	 .subpage {
+               size: landscape;
+		           width: 297mm;
+			         height: 210mm;
+			         position:absolute;
+               top:0px;
+               bottom:0px;
+               margin: auto;
+               margin-top: 0px !important;
+               border: 0px solid;
+	  } 
+    .no-print, .no-print * {
+        display: none !important;
+    }	 
+ }
