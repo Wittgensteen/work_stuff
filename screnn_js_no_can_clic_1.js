@@ -1,6 +1,5 @@
 function genScreenshot() {
-    html2canvas(document.body, {
-      onrendered: function(canvas) {
+    html2canvas(document.getElementById('capture'), { letterRendering: 1, allowTaint : true, onrendered : function(canvas) {
       $('#capture').html("");      
       if (navigator.userAgent.indexOf("MSIE ") > 0 || 
 					navigator.userAgent.match(/Trident.*rv\:11\./)) 
