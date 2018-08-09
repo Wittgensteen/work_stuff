@@ -51,7 +51,7 @@ body {
 			        margin: 0;
 		  	      height: 960px;
 	            width: 720px;
-              visibility: hidden;
+              /*visibility: hidden;*/
 	  }
 	 .subpage {
                size: landscape;
