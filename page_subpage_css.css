@@ -41,8 +41,8 @@ body {
  @media print {
 	  html, body {
 		        size: landscape;
-		        width: 297mm;
-			height: 210mm;
+		        /*width: 297mm;*/
+			/*height: 210mm;*/
 			        
 	  }
 	  .page {       size: landscape;
