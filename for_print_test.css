@@ -40,23 +40,23 @@ body {
  }
  @media print {
 	  html, body {
-		        size: landscape;
-		        /*width: 297mm;*/
-			/*height: 210mm;*/
+		  size: landscape;
+		  visibility: hidden;
+
+		/*width: 297mm;*/
+	       /*height: 210mm;*/
 			        
 	  }
-	  .page {       size: landscape;
-			margin: 0;
-		  	height: 960px;
-	                width: 720px;
-
-	  }
-	 .subpage {       size: landscape;
-		          width: 297mm;
-			  height: 210mm;
-			  margin: 0;
-
-	  } 
+	 .subpage {
+		     visibility: visible;
+		     size: landscape;
+		     width: 297mm;
+	             height: 210mm;
+		     margin: 0;
+		     position: absolute;
+                     left: 0;
+                     top: 0;
+	 } 
     .no-print, .no-print * {
         display: none !important;
     }	 
