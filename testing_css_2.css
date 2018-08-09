@@ -41,7 +41,7 @@ body {
  @media print {
 	  html, body {
 		        size: landscape;
-            visibility: hidden;
+            /*visibility: hidden;*/
 		        /*width: 297mm;*/
 			      /*height: 210mm;*/
 			        
