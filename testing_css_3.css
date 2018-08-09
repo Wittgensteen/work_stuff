@@ -39,30 +39,15 @@ body {
 	  margin: 0;
  }
  @media print {
-	  html, body {
-		        size: landscape;
-            /*visibility: hidden;*/
-		        /*width: 297mm;*/
-			      /*height: 210mm;*/
-			        
-	  }
-	  .page {
-              size: landscape;
-			        margin: 0;
-		  	      height: 960px;
-	            width: 720px;
-              /*visibility: hidden;*/
-	  }
 	 .subpage {
-               size: landscape;
-		           width: 297mm;
-			         height: 210mm;
-			         position:absolute;
-               top:0px;
-               bottom:0px;
-               margin: auto;
-               margin-top: 0px !important;
-               border: 0px solid;
+                 size: landscape;
+	         width: 297mm;
+                 height: 210mm;
+		 position:absolute;
+                 top:0px;
+                 bottom:0px;
+                 margin: auto;
+                 margin-top: 0px !important;
 	  } 
     .no-print, .no-print * {
         display: none !important;
