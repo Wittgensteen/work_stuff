@@ -11,7 +11,6 @@ function genScreenshot() {
       else {
         $('#test').attr('href', canvas.toDataURL("image/png"));
         $('#test').attr('download','Test file.png');
-        $('#test')[0].click();
       }
       
       
