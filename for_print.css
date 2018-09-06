@@ -36,11 +36,7 @@ body {
  }
  @media print {
 	  body * { visibility: hidden; }
-	  .page {       size: landscape;
-			margin: 0;
-		  	height: 960px;
-	                width: 720px;
-
+	  .page {  visibility: hidden;
 	  }
 	 .subpage {       size: landscape;
 		          width: 297mm;
