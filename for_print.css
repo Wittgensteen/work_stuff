@@ -38,11 +38,12 @@ body {
 	  body * { visibility: hidden; }
 	  .page {  visibility: hidden;
 	  }
+	 .subpage * { visibility: visible; }
+
 	 .subpage {       size: landscape;
 		          width: 297mm;
 			  height: 210mm;
 			  margin: 0;
-
 	  } 
     .no-print, .no-print * {
         display: none !important;
