@@ -1,4 +1,13 @@
-body * { visibility: hidden; }
+body {
+       /* width: 29.7cm; */
+       /* height: 21cm;  */
+	  margin: 0;
+	  padding: 0;
+	  background-color: #FAFAFA;
+	  font-size: 1.5em;
+	  line-height: 1.6;
+	  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
  .page {
 	  position: relative;
 	  width: 100%;
@@ -26,12 +35,7 @@ body * { visibility: hidden; }
 	  margin: 0;
  }
  @media print {
-	  html, body {
-		        size: landscape;
-		        /*width: 297mm;*/
-			/*height: 210mm;*/
-			        
-	  }
+	  body * { visibility: hidden; }
 	  .page {       size: landscape;
 			margin: 0;
 		  	height: 960px;
